@@ -1,3 +1,0 @@
-http://example.com
-https://google.com
-http://yahoo.com

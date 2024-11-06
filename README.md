@@ -14,7 +14,7 @@ The URL Defanger Tool is a simple Bash script that processes a text file contain
 
 To use this script you must provide it with a single argument: the path to a text file containing URLs you want to defang. Below is the syntax to run the script:
 
-`./url_defanger.sh testurls1.txt`
+`./defang3r.sh testurls1.txt`
 
 ## Example
 
@@ -27,7 +27,7 @@ http://yahoo.com
 
 After running the script:
 
-`./url_defanger.sh testurls1.txt`
+`./defang3r.sh testurls1.txt`
 
 You would find a new file named `testurls1-defang3d.txt` in the same directory containing:
 ```
@@ -43,8 +43,8 @@ hxxp://yahoo[.]com
 
 ## Installation
 
-1. Download the `url_defanger.sh` script.
-2. Give it execute permissions, if not already set: `chmod +x url_defanger.sh`
+1. Download the `defang3r.sh` script.
+2. Give it execute permissions, if not already set: `chmod +x defang3r.sh`
 
 ## Troubleshooting
 
