@@ -16,7 +16,7 @@ To use this script you must provide it with a single argument: the path to a tex
 
 `./url_defanger.sh inputFile.txt`
 
-(## Example
+## Example
 
 Suppose you have a file named `links.txt` containing the following URLs:
 
