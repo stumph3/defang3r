@@ -12,7 +12,7 @@ The URL Defanger Tool is a simple Bash script that processes a text file contain
   
 ## Usage
 
-To use this script, you must provide it with a single argument: the path to a text file containing URLs you want to defang. Below is the syntax to run the script:
+To use this script you must provide it with a single argument: the path to a text file containing URLs you want to defang. Below is the syntax to run the script:
 
 `./url_defanger.sh inputFile.txt`
 
