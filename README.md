@@ -1,5 +1,6 @@
 # defang3r
-Defang3r: A Simple URL Defanger Script for Cybersecurity Professionals  Defang3r is a bash script designed to safely transform URLs into a defanged format, making it safer to share URLs in documentation, emails, and online discussions without triggering links or security warnings..
+defang3r: A Simple URL Defanger Script for Cybersecurity Professionals. defang3r is a bash script designed to safely transform URLs into a defanged format, making it safer to share URLs in documentation, emails, and online discussions without triggering links or security warnings.
+
 # URL Defanger Tool
 
 The URL Defanger Tool is a simple Bash script that processes a text file containing URLs and transforms them to a defanged format. This is particularly useful for cybersecurity and IT professionals who need to share URLs safely without risking accidental hyperlinks, which can be potentially harmful.
@@ -8,31 +9,31 @@ The URL Defanger Tool is a simple Bash script that processes a text file contain
 
 - **Input Validation**: Ensures that a file is provided as input and that it exists before proceeding.
 - **Automatic Output Filenaming**: Generates an output file's name by appending `-defang3d` to the input file's base name.
-- **URL Defanging**:
-  - Replaces dots `.` with `[dot]`
-  - Modifies the protocol `http` to `hxxp` by altering `tt` to `xx`
   
 ## Usage
 
 To use this script, you must provide it with a single argument: the path to a text file containing URLs you want to defang. Below is the syntax to run the script:
 
-```bash
-./url_defanger.sh inputFile.txt
-Example
+`./url_defanger.sh inputFile.txt`
+
+## Example
 Suppose you have a file named links.txt containing the following URLs:
 
-http://example.com
+`http://example.com
 https://google.com
-http://yahoo.com
-After running the script:
+http://yahoo.com`
 
-./url_defanger.sh links.txt
+After running the script:
+`./url_defanger.sh links.txt`
+
 You would find a new file named links-defang3d.txt in the same directory containing:
 
-hxxp://example[dot]com
+`hxxp://example[dot]com
 hxxps://google[dot]com
-hxxp://yahoo[dot]com
-System Requirements
+hxxp://yahoo[dot]com`
+
+## System Requirements
+
 Bash shell (or compatible environment)
 Read and write permissions in the directory containing the script and your files
 Installation
