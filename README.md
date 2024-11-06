@@ -1,5 +1,5 @@
 # defang3r
-defang3r: A Simple URL Defanger Script for Cybersecurity Professionals. defang3r is a bash script designed to safely transform URLs into a defanged format, making it safer to share URLs in documentation, emails, and online discussions without triggering links or security warnings.
+defang3r is a bash script designed to safely transform URLs into a defanged format, making it safer to share URLs in documentation, emails, and online discussions without triggering links or security warnings.
 
 # URL Defanger Tool
 
