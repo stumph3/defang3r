@@ -44,11 +44,7 @@ hxxp://yahoo[.]com
 ## Installation
 
 1. Download the `url_defanger.sh` script.
-2. Give it execute permissions, if not already set:
-
-`chmod +x url_defanger.sh`
-
-1. Run the script as described in the usage section.
+2. Give it execute permissions, if not already set: `chmod +x url_defanger.sh`
 
 ## Troubleshooting
 
