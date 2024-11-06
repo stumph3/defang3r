@@ -24,4 +24,4 @@ while IFS= read -r url || [[ -n "$url" ]]; do
     echo "$defanged_url" >> "$output_file"
 done < "$input_file"
 
-echo "Defanged URLs have been written to $output_file"
+echo "Defang3d URLs have been written to $output_file"
