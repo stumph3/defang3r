@@ -19,21 +19,22 @@ To use this script you must provide it with a single argument: the path to a tex
 ## Example
 
 Suppose you have a file named `links.txt` containing the following URLs:
-
-`http://example.com`
-`https://google.com`
-`http://yahoo.com`
-
+```
+http://example.com
+https://google.com
+http://yahoo.com
+```
 
 After running the script:
 
 `./url_defanger.sh links.txt`
 
 You would find a new file named `links-defang3d.txt` in the same directory containing:
-
-`hxxp://example[dot]com`
-`hxxps://google[dot]com `
-`hxxp://yahoo[dot]com`
+```
+hxxp://example[.]com
+hxxps://google[.]com 
+hxxp://yahoo[.]com
+```
 
 ## System Requirements
 
